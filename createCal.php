@@ -57,7 +57,7 @@ for ($i = 0; $i < sizeof($events); $i++) {
 	$vevent->setProperty('LOCATION', $events[$i]->mLocationDesc);
 	// property name - case independent
 	$vevent->setProperty('summary', $events[$i]->mTitle);
-	$vevent->setProperty('description', $events[$i]->mDesc . "<br />" . $events[$i]->mLecturer);
+	$vevent->setProperty('description', $events[$i]->mDesc . "\n" . $events[$i]->mLecturer);
 }
 
 $v->returnCalendar();
