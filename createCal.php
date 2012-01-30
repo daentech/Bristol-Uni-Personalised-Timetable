@@ -3,7 +3,16 @@
  * Created on 30 Jan 2012
  *
  */
- 
+require_once('parseJSON.php');
+
+
+// Receive the JSON file, and parse it using the parseJSON class.
+$mJSON = $_POST['calData'];
+
+parseJSON::parse($mJSON);
+
+
+/* 
  require_once( 'iCalcreator-2.10.23/iCalcreator.class.php' );
 $config = array( 'unique_id' => 'bristolUniCalendar' );
   // set Your unique id
@@ -50,4 +59,5 @@ $vevent->parse( 'LOCATION:1CP Conference Room 4350' );
 
 $v->returnCalendar();
   // redirect calendar file to browser
+*/
 ?>

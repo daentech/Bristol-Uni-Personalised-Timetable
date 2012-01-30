@@ -6,5 +6,17 @@
  * Window - Preferences - PHPeclipse - PHP - Code Templates
  */
  
- // Parse the provided JSON from the uni calendar into php objects 
+ // Parse the provided JSON from the uni calendar into php objects
+ 
+class parseJSON{
+
+	var $mJSON;
+
+	function parse($json){
+		echo $json;
+	}
+	
+}
+
+  
 ?>
