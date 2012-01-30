@@ -22,7 +22,7 @@ error_reporting(E_ALL);
 	</head>
 	<body style="padding:20px;">
 	
-		<h1>Bristol University Personalised Timetable -> iCal converter</h1>
+		<h1>Bristol University Personalised Timetable &rarr; iCal converter</h1>
 		
 		<br />
 		<br />
