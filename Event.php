@@ -11,7 +11,7 @@
 
 class Event {
 
-	var $mStart, $mEnd, $mTitle, $mDesc, $mLocation, $mLocationDesc, $mLecturer, $mLon, $mLat, $mType;
+	public $mStart, $mEnd, $mTitle, $mDesc, $mLocation, $mLocationDesc, $mLecturer, $mLon, $mLat, $mType;
 
 	public function __construct($start, $end, $title, $desc, $location, $locationDesc, $lecturer, $lon, $lat, $type) {
 		$this->mStart = $start;
