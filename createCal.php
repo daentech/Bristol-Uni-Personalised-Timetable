@@ -54,9 +54,9 @@ for ($i = 0; $i < sizeof($events); $i++) {
 		'sec' => 0
 	);
 	$vevent->setProperty('dtend', $end);
-	$vevent->setProperty('LOCATION', $events[$i]->mLocationDesc);
+	$vevent->setProperty('location', $events[$i]->mLocation);
 	// property name - case independent
-	$vevent->setProperty('summary', $events[$i]->mTitle);
+	$vevent->setProperty('summary', $events[$i]->mTitle." - ".$events[$i]->mDesc);
 	$vevent->setProperty('description', $events[$i]->mDesc . "\n" . $events[$i]->mLecturer);
 }
 
