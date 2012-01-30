@@ -15,14 +15,11 @@ require_once ('Event.php');
 
 class parseJSON {
 
-	//var $mJSON;
-
 	function parse($json) {
 
 		$badjson = new Services_JSON();
 		$data = $badjson->decode($json);
 		$size = sizeof($data);
-		echo "Data size: ".$size."<br />";
 		$eventArr = array();
 		for ($i = 0; $i < $size; $i++) {
 
@@ -58,12 +55,8 @@ class parseJSON {
 				'lat' }; // Latitude
 
 			$eventArr[] = new Event($start, $end, $title, $name, $loc, $locdesc, $staff, $lng, $lat, $type);
-
-			var_dump($eventArr);
 		}
-		echo sizeof($eventArr);
 		return $eventArr;
 	}
 
 }
-?>
