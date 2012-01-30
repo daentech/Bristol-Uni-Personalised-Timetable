@@ -1,16 +1,15 @@
 <?php
+
 /*
  * Created on 30 Jan 2012
  *
  */
-require_once('parseJSON.php');
-
+require_once ('parseJSON.php');
 
 // Receive the JSON file, and parse it using the parseJSON class.
 $mJSON = $_POST['calData'];
 
-parseJSON::parse($mJSON);
-
+parseJSON :: parse($mJSON);
 
 /* 
  require_once( 'iCalcreator-2.10.23/iCalcreator.class.php' );
