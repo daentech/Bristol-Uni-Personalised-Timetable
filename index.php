@@ -31,7 +31,7 @@ error_reporting(E_ALL);
 		<br />
 		<ol>
 			<li>Follow this link and login using your bristol account:<br />
-				<a href="https://portal.bris.ac.uk/studenttimetabling/timetable.json?start=1327881600&end=1337558400" target="_blank">Get data</a></li>
+				<a href="https://portal.bris.ac.uk/studenttimetabling/timetable.json?start=1349049600&end=1372636800&ticket=ST-12188770-QrRSX2FzvTLfR6BsXwfU-nAC10040C2095" target="_blank">Get data</a></li>
 			<li>Copy all the data from that page into the textbox below</li>
 			<li>Press the button</li>
 		</ol>
